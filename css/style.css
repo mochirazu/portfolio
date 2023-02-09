@@ -60,9 +60,21 @@ body{
       color: #75ddff;
   }
 
+  .mid-wrapper{
+    position: relative;
+    height: 500px;
+  }
+
+  .image-mid img{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+
   .text-wrapper{
     color: white;
     position: absolute;
+    top: 50%;
     right: 0;
     left: 50%;
   }
