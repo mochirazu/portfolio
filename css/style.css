@@ -86,6 +86,10 @@ header::after{
       color: #75ddff;
   }
 
+  .nav li a.hov-work{
+    color: #75ddff;
+}
+
   .mid-wrapper{
     position: relative;
     height: 500px;
