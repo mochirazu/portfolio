@@ -76,6 +76,11 @@ header::after{
       font-family: '', sans-serif;
   }
   
+  .home img:hover{
+    scale: 1.1;
+    transition: 0.5s;
+  }
+  
   .nav a:hover {
       color: #75ddff;
   }
@@ -107,6 +112,9 @@ border-radius: 10px;
 .exp-box{
     width: 300px;
     margin-top: 50px;
+}
+.skill-box{
+    margin-top: 100px;
 }
 
 

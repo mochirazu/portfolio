@@ -76,6 +76,11 @@ header::after{
       font-size: 15px;
       font-family: '', sans-serif;
   }
+
+  .home img:hover{
+    scale: 1.1;
+    transition: 0.5s;
+  }
   
   .nav a:hover {
       color: #75ddff;
