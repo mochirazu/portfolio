@@ -124,8 +124,14 @@ border-radius: 10px;
 }
 
 .ps-after::after{
-    content: "";
-    background-image: url(../img/ps-icon.png);
+content: url(../img/ps-icon.png);
+}
+
+.html-after::after{
+    content: url(../img/html-icon.png);
+}
+.css-after::after{
+    content: url(../img/css-icon.png);
 }
 
 

@@ -8,6 +8,7 @@
 
     <link rel="icon" href="img/blob.png">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="landing-page">
@@ -20,7 +21,7 @@
                     <ul>
                         <li class="home">
                             <a href="index.html">
-                                 <img src="/img/blob.png" alt="">
+                                 <img src="img/blob.png" alt="">
                             </a>
                         </li>
                         <li class="about">
@@ -46,13 +47,13 @@
         <!--middle-->
 
         <div class="wrapper">
-            <div class="mid-wrapper">
+            <div class="mid-wrapper" data-aos="zoom-in-left">
                 <div class="image-mid">
                     <img src="/img/pic.png" alt="">
                 </div>
                 <div class="text-wrapper">
                     <div class="tittle-up">
-                        <h2>
+                        <h2 >
                             Illustrator <span class="dan">&</span> Web Designer
                         </h2>
                         <h2>
@@ -70,6 +71,7 @@
                     </div>
                 </div>
             </div>
+        </div>
 
             <!--footer-->
 
@@ -106,6 +108,11 @@
                     </div>
                 </div>
             </footer>
-        </div>
+        
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 </body>
 </html>

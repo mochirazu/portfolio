@@ -20,6 +20,7 @@ html{
 }
 
 body{
+  color: antiquewhite;
   height: 100%;
     background-image: linear-gradient(to bottom, #040a0f, #0d1115);
     background-size: cover;
@@ -92,11 +93,15 @@ header::after{
       color: #75ddff;
   }
 
+  .ill-title{
+    margin-top: 50px;
+text-align: center;
+  }
 
   .swiper {
-    margin-top: 100px;
+    margin-top: 50px;
     width: 700px;
-    height: 500px;
+    height: 450px;
   }
 
   .swiper-slide {
