@@ -25,6 +25,7 @@ body{
     background-repeat: no-repeat;
     letter-spacing: 0.1em;
     line-height: 1.5;
+    font-family: 'Nunito sans';
   }
 
 header::after{
@@ -112,6 +113,22 @@ header::after{
     left: 50%;
   }
 
+  .tittle-up h2{
+  font-family: 'Mukta';
+  }
+  .nama{
+    color: #bffffe;
+    font-size: 38px;
+  }
+  .dan{
+    color: #234764;
+    font-size: 25px;
+  }
+
+  .text p{
+    font-family: 'Nunito sans';
+  }
+
 
 .foot-wrapper{
   position: absolute;
@@ -137,6 +154,9 @@ header::after{
 position: absolute;
 right: 0;
 left: 48%;
+padding-top: 3px;
+font-size: 15px;
+font-weight: bold;
 }
 
   .cc{
