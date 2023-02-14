@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/gallery.css">
 </head>
@@ -40,5 +41,40 @@
             </div>
         </div>
     </header>
+
+    <!--illustration-->
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/under.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/campfirenew.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Devotion.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+      <script>
+            var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+      </script>
 </body>
 </html>

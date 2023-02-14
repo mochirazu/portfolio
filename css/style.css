@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Nunito+Sans&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +23,8 @@ body{
     background-image: linear-gradient(to bottom, #040a0f, #0d1115);
     background-size: cover;
     background-repeat: no-repeat;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
   }
 
 header::after{
@@ -125,7 +131,6 @@ header::after{
 .text-bot{
   color: antiquewhite;
   text-align: center;
-  padding-top: 5px;
   height: 30px;
   width: 200px;
   background-color: #0d1115;
