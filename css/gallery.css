@@ -80,7 +80,7 @@ header::after{
     color: white;
       text-decoration: none;
       font-size: 15px;
-      font-family: '', sans-serif;
+      font-family: 'Mukta', sans-serif;
   }
   
   .home img:hover{
@@ -95,14 +95,13 @@ header::after{
 
   .swiper {
     margin-top: 100px;
-    width: 650px;
-    height: 450px;
+    width: 700px;
+    height: 500px;
   }
 
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,5 +111,5 @@ header::after{
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }

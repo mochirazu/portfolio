@@ -79,7 +79,7 @@ header::after{
     color: white;
       text-decoration: none;
       font-size: 15px;
-      font-family: '', sans-serif;
+      font-family: 'Mukta', sans-serif;
   }
   
   .home img:hover{
@@ -122,6 +122,14 @@ border-radius: 10px;
 .skill-box{
     margin-top: 100px;
 }
+
+.ps-after::after{
+    content: "";
+    background-image: url(../img/ps-icon.png);
+}
+
+
+
 
 .blob-1{
     position: absolute;
