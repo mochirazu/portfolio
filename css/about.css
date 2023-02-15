@@ -111,6 +111,11 @@ text-align: left;
 border: #75ddff 5px solid;
 border-radius: 10px;
 }
+.box h2{
+    font-family: 'Mukta';
+    font-weight: bold;
+    color: #bffffe;
+}
 .about-box{
     height: 450px;
     width: 350px;
@@ -170,14 +175,3 @@ content: url(../img/ps-icon.png);
 }
 
 
-
-  .foot-wrapper{
-    position: absolute;
-    background-image: url(../img/foot-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    bottom: 0;
-    padding-top: 20px;
-    width: 100%;
-    height: 120px;
-  }

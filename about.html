@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/about.css">
 </head>
@@ -45,7 +46,7 @@
 
     <div class="wrapper">
         <div class="main-wrapper">
-            <div class="about-box box">
+            <div class="about-box box" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                 <h2>
                     - About Me -
                 </h2>
@@ -61,7 +62,7 @@
                     in National University, Jakarta.
                 </p>
             </div>
-            <div class="exp-box box">
+            <div class="exp-box box" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                 <div class="skill-text">
                     <h2>
                         - Experiences -
@@ -73,7 +74,7 @@
                 </div>
                 <div class="skill-box">
                     <h2>
-                        Skills
+                        - Skills -
                     </h2>
                     <div class="skill-text">
                         <p>
@@ -107,7 +108,42 @@
 
     <footer class="footer">
         <div class="foot-wrapper">
+            <div class="text-bot">
+                <p>
+                    by Mochirazu
+                </p>
+            </div>
+            <div class="cc">
+                <ul class="cc-img">
+                    <li>
+                        <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">
+                            <img src="img/cc_icon_white_x2.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">
+                            <img src="img/attribution_icon_white_x2.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">
+                            <img src="img/nc_white_x2.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">
+                            <img src="img/nd_white_x2.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
