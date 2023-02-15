@@ -99,9 +99,10 @@ text-align: center;
   }
 
   .swiper {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 700px;
     height: 450px;
+    border: red 5px solid;
   }
 
   .swiper-slide {
@@ -117,4 +118,9 @@ text-align: center;
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+
+  .page-tittle{
+    margin-top: 50px;
+    text-align: center;
   }
