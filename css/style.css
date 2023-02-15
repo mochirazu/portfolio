@@ -155,7 +155,7 @@ header::after{
 .text-bot{
 position: absolute;
 right: 0;
-left: 48%;
+left: 45%;
 padding-top: 3px;
 font-size: 15px;
 font-weight: bold;
@@ -165,7 +165,7 @@ font-weight: bold;
     position: absolute;
     text-align: center;
     right: 0;
-    left: 49.9%;
+    left: 46.9%;
     bottom: 0;
     margin-bottom: 30px;
   }

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Nunito+Sans&display=swap');
+
+
+.wrapper{
+    position: relative;
+}
+
+.contact-wrapper{
+    position: absolute;
+    display: flex;
+    right: 0;
+    left: 38%;
+    margin-top: 150px;
+}
+.contact-box{
+    position: absolute;
+    border: #6dd4ff 5px solid;
+    border-radius: 10px;
+    height: 400px;
+    width: 450px;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contact-box a{
+    color: #bffffe;
+    text-decoration: none;
+}
+.contact-box p{
+    margin-bottom: 10px;
+}
+
+.contact-box h2{
+    color: #bffffe;
+    font-family: 'Mukta';
+    font-size: 38;
+    margin-bottom: 20px;
+}
+
+.gmail{
+    font-size: 25px;
+}
+.gmail::before{
+    content: url(../img/icon-mail.png);
+}
+
+.socials a{
+    font-size: 25px;
+}
+.ig::before{
+    content: url(../img/icon-ig.png);
+}
+.tw::before{
+    content: url(../img/icon-tw.png);
+}
