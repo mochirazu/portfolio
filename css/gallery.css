@@ -22,7 +22,7 @@ html{
 body{
   color: antiquewhite;
   height: 100%;
-    background-image: linear-gradient(to bottom, #040a0f, #0d1115);
+    background: linear-gradient(to bottom, #040a0f, #0d1115);
     background-size: cover;
     background-repeat: no-repeat;
     letter-spacing: 0.1em;
@@ -123,4 +123,23 @@ text-align: center;
   .page-tittle{
     margin-top: 50px;
     text-align: center;
+  }
+
+  .page-wrapper{
+    position: relative;
+  }
+  .page-box{
+    position: absolute;
+    right: 0;
+    left: 26.5%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin-top: 50px;
+  }
+
+  .page-box img{
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
   }
