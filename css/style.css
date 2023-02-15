@@ -9,7 +9,7 @@
 }
 
 html, body{
-    height: 100%;
+  height: 100%;
     scroll-behavior: smooth;
     font-size: 18px;
 }
@@ -26,6 +26,7 @@ body{
     letter-spacing: 0.1em;
     line-height: 1.5;
     font-family: 'Nunito sans';
+    color: antiquewhite;
   }
 
 header::after{
@@ -33,12 +34,13 @@ header::after{
   background-image: url('../img/before-bg.jpg');
   background-repeat: repeat-x;
   background-size: cover;
-  max-width: 1910px;
+  max-width: 1920px;
   width: 100%;
   height: 11px;
   position: absolute;
   top: 80px;
-  left: 10px;
+  left: 0%;
+  
 }
 
 
