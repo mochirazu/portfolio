@@ -169,7 +169,7 @@ font-weight: bold;
     right: 0;
     left: 46.9%;
     bottom: 0;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
   }
   .cc-img img{
     height: 20px;
@@ -298,7 +298,7 @@ header::after{
     color: white;
     position: absolute;
     max-width: 500px;
-    top: 43%;
+    top: 38%;
     right: 0;
     left: 50%;
   }
