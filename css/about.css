@@ -32,12 +32,20 @@ border-radius: 10px;
     height: 450px;
     width: 350px;
 }
+.p2{
+    margin-top: 20px;
+}
+
 .exp-box{
     width: 350px;
     margin-top: 100px;
 }
 .skill-box{
-    margin-top: 100px;
+    margin-top: 20px;
+}
+
+.hima span{
+    font-size: 15px;
 }
 
 .ps-after::after{
