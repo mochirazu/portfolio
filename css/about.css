@@ -2,7 +2,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Nunito+Sans&display=swap');
 
 
+@media only screen and (min-width: 1024px){
+    .wrapper{
+        position: relative;
+        color: antiquewhite;
+    }
+    .main-wrapper{
+        position: absolute;
+        display: flex;
+        right: 0;
+        left: 12%;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .box{
+        height: 375px;
+        width: 250px;
+        padding: 10px;
+    margin-left: 50px;
+    text-align: left;
+    border: #75ddff 5px solid;
+    border-radius: 10px;
+    }
+    .box h2{
+        font-family: 'Mukta';
+        font-weight: bold;
+        color: #bffffe;
+    }
+    .about-box{
+        height: 325px;
+        width: 275px;
+    }
+    .p2{
+        margin-top: 20px;
+    }
+    
+    .exp-box{
+        width: 350px;
+        margin-top: 0px;
+    }
+    .skill-box{
+        margin-top: 20px;
+    }
+    
+    .hima span{
+        font-size: 12px;
+    }
+    
+    .ps-after::after{
+    content: url(../img/ps-icon.png);
+    }
+    
+    .html-after::after{
+        content: url(../img/html-icon.png);
+    }
+    .css-after::after{
+        content: url(../img/css-icon.png);
+    }
+    
+    
+    
+    
+    .blob-1{
+        position: absolute;
+        left: -10%;
+    }
+    .blob-2{
+        position: absolute;
+        right: 3.5%;
+        bottom: 0%;
+    }
+    .blob img{
+        animation: blob 13s 1s infinite normal forwards;
+    }
+    
+    @keyframes blob {
+        
+        0%, 100%{
+            transform: translateY(0);
+        }
+        10%, 30%, 50%, 70%{
+            transform: translateY(-8px);
+        }
+        20%, 40%, 60%{
+            transform: translateY(8px);
+        }
+        80%{
+            transform: translateY(6px);
+        }
+        90%{
+            transform: translateY(-6px);
+        }
+    }
+}
 
+
+@media only screen and (min-width: 1440px){
 .wrapper{
     position: relative;
     color: antiquewhite;
@@ -11,14 +106,15 @@
     position: absolute;
     display: flex;
     right: 0;
-    left: 28%;
-    margin-top: 150px;
+    left: 27%;
+    margin-top: 35px;
+    font-size: 18px;
 }
 .box{
-    height: 450px;
+    height: 470px;
     width: 300px;
     padding: 15px;
-margin-left: 50px;
+margin-left: 10px;
 text-align: left;
 border: #75ddff 5px solid;
 border-radius: 10px;
@@ -29,7 +125,7 @@ border-radius: 10px;
     color: #bffffe;
 }
 .about-box{
-    height: 450px;
+    height: 350px;
     width: 350px;
 }
 .p2{
@@ -38,7 +134,7 @@ border-radius: 10px;
 
 .exp-box{
     width: 350px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .skill-box{
     margin-top: 20px;
@@ -60,8 +156,6 @@ content: url(../img/ps-icon.png);
 }
 
 
-
-
 .blob-1{
     position: absolute;
     left: -20%;
@@ -69,7 +163,7 @@ content: url(../img/ps-icon.png);
 .blob-2{
     position: absolute;
     right: 20%;
-    bottom: 20%;
+    bottom: 0;
 }
 .blob img{
     animation: blob 13s 1s infinite normal forwards;
@@ -93,5 +187,4 @@ content: url(../img/ps-icon.png);
         transform: translateY(-6px);
     }
 }
-
-
+}
