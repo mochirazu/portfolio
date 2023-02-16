@@ -45,6 +45,9 @@
 .gmail::before{
     content: url(../img/icon-mail.png);
 }
+.gmail:hover{
+    color: aqua;
+}
 
 .socials a{
     font-size: 25px;
@@ -52,6 +55,12 @@
 .ig::before{
     content: url(../img/icon-ig.png);
 }
+.ig:hover{
+    color: aqua;
+}
 .tw::before{
     content: url(../img/icon-tw.png);
+}
+.tw:hover{
+    color: aqua;
 }
