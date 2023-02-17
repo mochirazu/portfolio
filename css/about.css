@@ -8,11 +8,12 @@
         color: antiquewhite;
     }
     .main-wrapper{
-        position: absolute;
+        position: relative;
         display: flex;
-        right: 0;
-        left: 12%;
-        margin-top: 50px;
+        padding-top: 80px;
+        padding-bottom: 30px;
+        padding-right: 40px;
+        padding-left: 120px;
         font-size: 15px;
     }
     .box{
@@ -61,15 +62,17 @@
     }
     
     
-    
+    .blob img{
+        height: 80px;
+    }
     
     .blob-1{
         position: absolute;
-        left: -10%;
+        left: 5%;
     }
     .blob-2{
         position: absolute;
-        right: 3.5%;
+        right: 4%;
         bottom: 0%;
     }
     .blob img{
@@ -103,11 +106,14 @@
     color: antiquewhite;
 }
 .main-wrapper{
-    position: absolute;
+    position: relative;
     display: flex;
-    right: 0;
-    left: 27%;
-    margin-top: 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 250px;
+    padding-left: 350px;
+
+    margin-bottom: 30px;
     font-size: 18px;
 }
 .box{
@@ -155,14 +161,17 @@ content: url(../img/ps-icon.png);
     content: url(../img/css-icon.png);
 }
 
+.blob img{
+    height: 100px;
+}
 
 .blob-1{
     position: absolute;
-    left: -20%;
+    left: 15%;
 }
 .blob-2{
     position: absolute;
-    right: 20%;
+    right: 15%;
     bottom: 0;
 }
 .blob img{
@@ -187,4 +196,102 @@ content: url(../img/ps-icon.png);
         transform: translateY(-6px);
     }
 }
+}
+
+@media only screen and (min-width: 1920px){
+    .wrapper{
+        position: relative;
+        color: antiquewhite;
+    }
+    .main-wrapper{
+        position: relative;
+        display: flex;
+        padding-top: 90px;
+        padding-bottom: 20px;
+        padding-right: 250px;
+        padding-left: 550px;
+    
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    .box{
+        height: 470px;
+        width: 300px;
+        padding: 15px;
+    margin-left: 50px;
+    text-align: left;
+    border: #75ddff 5px solid;
+    border-radius: 10px;
+    }
+    .box h2{
+        font-family: 'Mukta';
+        font-weight: bold;
+        color: #bffffe;
+    }
+    .about-box{
+        height: 350px;
+        width: 350px;
+    }
+    .p2{
+        margin-top: 20px;
+    }
+    
+    .exp-box{
+        width: 350px;
+        margin-top: 50px;
+    }
+    .skill-box{
+        margin-top: 20px;
+    }
+    
+    .hima span{
+        font-size: 15px;
+    }
+    
+    .ps-after::after{
+    content: url(../img/ps-icon.png);
+    }
+    
+    .html-after::after{
+        content: url(../img/html-icon.png);
+    }
+    .css-after::after{
+        content: url(../img/css-icon.png);
+    }
+    
+    .blob img{
+        height: 150px;
+    }
+    
+    .blob-1{
+        position: absolute;
+        left: 15%;
+    }
+    .blob-2{
+        position: absolute;
+        right: 15%;
+        bottom: 0;
+    }
+    .blob img{
+        animation: blob 13s 1s infinite normal forwards;
+    }
+    
+    @keyframes blob {
+        
+        0%, 100%{
+            transform: translateY(0);
+        }
+        10%, 30%, 50%, 70%{
+            transform: translateY(-8px);
+        }
+        20%, 40%, 60%{
+            transform: translateY(8px);
+        }
+        80%{
+            transform: translateY(6px);
+        }
+        90%{
+            transform: translateY(-6px);
+        }
+    }
 }
