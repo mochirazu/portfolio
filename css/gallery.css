@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Nunito+Sans&display=swap');
 
+
 html, body{
   height: 1500px;
     scroll-behavior: smooth;
@@ -12,6 +13,7 @@ body{
   background-image: linear-gradient(to bottom, #040a0f, #0d1115);
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 
