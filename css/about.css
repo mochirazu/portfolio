@@ -60,7 +60,20 @@
     .css-after::after{
         content: url(../img/css-icon.png);
     }
-    
+    .button-gallery{
+        position: absolute;
+        top: 50;
+        bottom: 0
+        ;
+    }
+    .button-gallery{
+        border: 4px solid white;
+        border-radius: 10px;
+        color: black;
+        height: 50px;
+        width: 150px;
+        text-align: center;
+    }
     
     .blob img{
         height: 80px;
