@@ -11,13 +11,13 @@
     display: flex;
     right: 0;
     left: 38%;
-    margin-top: 110px;
+    margin-top: 50px;
 }
 .contact-box{
     position: absolute;
     border: #6dd4ff 5px solid;
     border-radius: 10px;
-    height: 400px;
+    height: 435px;
     width: 450px;
     padding: 10px;
     padding-top: 20px;
@@ -62,5 +62,11 @@
     content: url(../img/icon-tw.png);
 }
 .tw:hover{
+    color: aqua;
+}
+.pxv::before{
+    content: url(../img/icon-pxv.png);
+}
+.pxv:hover{
     color: aqua;
 }
