@@ -77,11 +77,6 @@ body{
     width: auto;
  }
 
- .fa-email:hover{color: aqua;}
- .fa-insta:hover{color: aqua;}
- .fa-twitter:hover{color: aqua;}
- .fa-pixiv:hover{color: aqua;}
-
  nav .logo{
     margin: 10px 6px 0;
     font-size: 25px;
