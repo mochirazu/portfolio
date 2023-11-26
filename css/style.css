@@ -9,13 +9,10 @@
 }
 
 html, body{
+    width: 100vw;
     height: 100vh;
     scroll-behavior: smooth;
     font-size: 18px;
-}
-
-html{
-    width: 100vw;
 }
 
 body{
@@ -76,7 +73,7 @@ body{
  }
 
  nav .mainmenu li a:hover{
-    color: aqua;
+    color: rgb(172, 247, 247);
  }
 
  nav .openmenu{
@@ -279,11 +276,10 @@ body{
 
  nav .mainmenu li a {
     display: inline-block;
-    padding: 15px;
+    padding: 20px;
     text-decoration: none;
-    text-transform: none;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1rem;
  }
 
  nav .openmenu{
