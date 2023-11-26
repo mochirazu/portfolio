@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Nunito+Sans&display=swap');
 
-@media only screen and (min-width: 400px){
+@media only screen and (min-width: 300px){
   *{
     margin: 0;
     padding: 0;
@@ -109,7 +109,7 @@ body{
  }
 
  nav .logo{
-    margin: 10px 6px 0;
+    margin: 10px 0 0 10px;
     font-family: 'Mukta';
     font-size: 25px;
     cursor: pointer;
