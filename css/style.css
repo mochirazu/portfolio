@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Nunito+Sans&display=swap');
 
+@media only screen and (min-width: 932px){
+  
+}
+
 
 @media only screen and (min-width: 1024px){
   *{
@@ -375,4 +379,3 @@ font-weight: bold;
     display: flex;
   }
 }
-
