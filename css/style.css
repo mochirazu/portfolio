@@ -170,8 +170,9 @@ body{
 
 .text-bot{
   color: antiquewhite;
+  display: flex;
   justify-content: center;
-  height: 25px;
+  height: 30px;
   width: 195px;
   margin-top: 5px;
   background-color: #0d1115;
@@ -179,10 +180,8 @@ body{
 }
 
 .text-bot p{
-position: absolute;
-right: 0;
-left: 40%;
-padding-top: 3px;
+position: relative;
+padding-top: 5px;
 font-size: 15px;
 font-weight: bold;
 }
